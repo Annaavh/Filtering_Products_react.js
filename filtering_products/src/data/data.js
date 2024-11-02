@@ -1,0 +1,54 @@
+import headphones from "../images/headphones.jpeg";
+import speaker from "../images/speaker.jpeg";
+import jacket from "../images/jacket.jpeg";
+import shoes from "../images/shoes.jpeg";
+import smartphone from "../images/smartphone.jpeg";
+
+
+export const mockData = [
+    {
+      "id": 1,
+      "name": "Wireless Headphones",
+      "category": "Electronics",
+      "brand": "Brand A",
+      "price": 99.99,
+      "rating": 4.5,
+      "imageUrl": headphones
+    },
+    {
+      "id": 2,
+      "name": "Bluetooth Speaker",
+      "category": "Electronics",
+      "brand": "Brand B",
+      "price": 49.99,
+      "rating": 4.0,
+      "imageUrl":speaker
+    },
+    {
+      "id": 3,
+      "name": "Running Shoes",
+      "category": "Footwear",
+      "brand": "Brand C",
+      "price": 59.99,
+      "rating": 4.2,
+      "imageUrl": shoes
+    },
+    {
+      "id": 4,
+      "name": "Smartphone",
+      "category": "Electronics",
+      "brand": "Brand D",
+      "price": 499.99,
+      "rating": 4.8,
+      "imageUrl": smartphone
+    },
+    {
+      "id": 5,
+      "name": "Leather Jacket",
+      "category": "Clothing",
+      "brand": "Brand E",
+      "price": 199.99,
+      "rating": 4.7,
+      "imageUrl": jacket
+    }
+  ]
